@@ -1,4 +1,5 @@
-// import BoardLayout from "../components/BoardLayout";
+
+import Layout from '../components/Layout';
 import NavMenu from '../components/Navmenu';
 import SideMenu from "../components/SideMenu";
 
@@ -9,7 +10,7 @@ export const Dashboard = ({ theme, setTheme }) => {
       <SideMenu theme={theme} setTheme={setTheme} />
       <section className="w-[90%] flex-grow">
        <NavMenu currentPage="Dashboard" />
-        {/*  <BoardLayout theme={theme} /> */}
+          <Layout theme={theme} /> 
       </section>
     </section>
   );
