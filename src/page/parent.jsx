@@ -1,7 +1,8 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 /* eslint-disable react/no-unescaped-entities */
 
-
+import pa from '../assets/h.png'
 export const ParentLoginForm = ({setIsParentLogin, isParentLogin}) => {
   const handleAdminLogin = () => {
     setIsParentLogin(false);
@@ -127,7 +128,7 @@ export const ParentLoginForm = ({setIsParentLogin, isParentLogin}) => {
     </form>
     <div className="max-md:order-1 lg:min-w-[450px] hidden lg:block md:block ">
       <img
-        src="https://readymadeui.com/signin-image.webp"
+        src={pa}
         className="lg:w-11/12 w-full object-cover"
         alt="login-image"
       />

@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 /* eslint-disable react/no-unescaped-entities */
 export const AdminLoginForm = ({setIsParentLogin, isParentLogin}) => {
   const handleParentLogin = () => {
