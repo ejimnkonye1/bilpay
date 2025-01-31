@@ -67,7 +67,7 @@ import {
             <TrendUp size="24" variant="Broken" />
           </NavLink>
           <NavLink
-            to="/user-profile"
+            to="/#"
             activeclassname="active"
             className="text-stone-400 duration-300 hover:text-slate-900 dark:hover:text-emerald-500"
           >
@@ -75,21 +75,21 @@ import {
           </NavLink>
           <NavLink
             activeclassname="active"
-            to="/wallets"
+            to="/#"
             className="text-stone-400 duration-300 hover:text-slate-900 dark:hover:text-emerald-500"
           >
             <Box size="24" variant="Broken" />
           </NavLink>
           <NavLink
             activeclassname="active"
-            to="/discounts"
+            to="/#"
             className="text-stone-400 duration-300 hover:text-slate-900 dark:hover:text-emerald-500"
           >
             <DiscountShape size="24" variant="Broken" />
           </NavLink>
           <NavLink
             activeclassname="active"
-            to="/information"
+            to="/#"
             className="text-stone-400 duration-300 hover:text-slate-900 dark:hover:text-emerald-500"
           >
             <InfoCircle size="24" variant="Broken" />
