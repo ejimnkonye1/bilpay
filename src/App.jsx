@@ -23,6 +23,11 @@ const App = () => {
           path="/trending"
           element={<Trending setTheme={setTheme} theme={theme} />}
         />
+          
+      {/* <Route
+          path="/trending"
+          element={<Trending setTheme={setTheme} theme={theme} />}
+        /> */}
  
       </Routes> 
     </Router>
